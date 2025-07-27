@@ -2,37 +2,92 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh; /* full viewport height */
+    height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+/* Header styling with logo */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 1rem;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    margin-right: 1.5rem;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    color: gold;
 }
 
 /* Main should be flexible in size between header and footer */
 main {
     display: flex;
     flex-direction: row;
-    flex: auto; /* expand to fill remaining space between header and footer */
+    flex: auto;
 }
 
 /* Article takes 2/3 of horizontal space */
 article {
     flex: 2;
     overflow-y: auto;
-    padding: 1rem;
-    background-color: #f8f8f8;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-right: 2px solid #e0e0e0;
+    line-height: 1.6;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* You may customize <article> content freely */
+article h2 {
+    color: #004080;
+}
+
+article p {
+    font-size: 1.1rem;
+}
+
+article ul {
+    padding-left: 1.5rem;
+    list-style-type: square;
 }
 
 /* Aside takes 1/3 of horizontal space */
 aside {
     flex: 1;
     overflow-y: auto;
-    padding: 1rem;
-    background-color: #eaeaea;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    font-style: italic;
+    border-left: 2px solid #ddd;
 }
 
-/* Optional: style header and footer for clarity */
-header, footer {
-    background-color: #ccc;
+/* Footer styling */
+footer {
+    background-color: #003366;
+    color: white;
     padding: 1rem;
     text-align: center;
+    font-size: 0.9rem;
 }
