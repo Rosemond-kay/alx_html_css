@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  background: url('your-image.jpg') no-repeat center center/cover;
+  background: url('image/1.jpg') no-repeat center center/cover;
   height: 100vh;
   text-align: center;
   color: white;
