@@ -33,4 +33,26 @@ Welcome to the codebase for a sleek and modern headphones company website. This 
 - Basic CSS transitions for interactive feedback
 
 ## 📂 Folder Structure
+/
+├── index.html
+├── styles/
+│ └── main.css
+└── assets/
+├── images/
+└── fonts/
 
+bash
+Copy
+Edit
+
+## 🚀 Getting Started
+
+To preview the site locally:
+
+1. Clone the repository  
+2. Open `index.html` in your browser
+
+```bash
+git clone https://github.com/yourusername/headphones-website.git
+cd headphones-website
+open index.html  # or use your browser
