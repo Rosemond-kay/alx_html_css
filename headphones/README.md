@@ -31,3 +31,4 @@ Welcome to the codebase for a sleek and modern headphones company website. This 
 - HTML5 & CSS3  
 - Media Queries for responsive behavior  
 - Basic CSS transitions for interactive feedback
+- Javascript
