@@ -10,6 +10,14 @@
     font-weight: lighter; /* optional but recommended for clarity */
 }
 
+@font-face {
+  font-family: 'MyIcons';
+  src: url('fonts/holberton_school-icon.ttf') format('truetype'),
+        url('fonts/holberton_school-icon.eot') format('truetype'),
+        url('fonts/holberton_school-icon.woff') format('truetype');
+}
+
+
 html {
   margin-top: 0;
   padding: 0;
@@ -19,9 +27,9 @@ html {
 
 body {
     margin-top: 0;
-  padding: 0;
-  background-color: transparent;
-  box-sizing: border-box;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
 }
 
 * {
@@ -132,4 +140,57 @@ h1, h3, h5 {
     margin-top: 0;
     
 }
+
+.what-we-do {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: rgba(7, 22, 41, 1);
+}
+
+.what-we-do h1 {
+    width: 192px;
+    height: 40px;
+    font-size: x-large;
+    
+    
+}
+
+.what-we-do p {
+    width: 640px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.icons-space {
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+    margin-top: 40px;
+    
+}
+
+.icon-box {
+    text-align: center;
+    width: 210px;
+    height: 180px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    font-family: MyIcons;
+    display: block;
+    margin: 0 auto 10px;
+    font-size: 60px;
+    font-weight: lighter;
+    color: #FF6565;
+}
+
 
